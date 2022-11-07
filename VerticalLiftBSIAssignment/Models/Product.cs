@@ -10,7 +10,7 @@ namespace VerticalLiftBSIAssignment.Models
     {
         [Key]
         public Guid  id { get; set; }
-
+        [Required]
         [Display(Name = "Name")]
         public string name { get; set; }
         [Display(Name = "Count")]
